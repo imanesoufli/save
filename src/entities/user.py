@@ -1,2 +1,5 @@
+from dataclasses import dataclass
+@dataclass
 class User:
-    pass
+    first_name: str
+    last_name: str
